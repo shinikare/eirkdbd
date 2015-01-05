@@ -1,0 +1,11 @@
+<li class="person-item">
+    <h4 class="person-name">
+        <a href="#">{{name}}</a>
+    </h4>
+    {{#avatar}}
+        <img src="data:image/png;base64,{{.}}" class="avatar-image"/>
+    {{/avatar}}
+    {{^avatar}}
+        <div class="avatar-image empty"></div>
+    {{/avatar}}
+</li>

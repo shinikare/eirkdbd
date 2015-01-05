@@ -1,0 +1,13 @@
+{
+	"name": "EIRKDBD",
+	"dependencies": {
+		"jquery" : "latest",
+		"underscore": "latest",
+		"backbone": "latest",
+		"backbone-session": "latest",
+		"bootstrap": "latest",
+		"requirejs": "latest",
+        "handlebars": "latest",
+        "jquery.serializeJSON": "latest"
+	}
+}

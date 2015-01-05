@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+html,body {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  font-family: "Open Sans";
+
+  /*
+  &.loading {
+    &:after, &:before {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+    }
+    &:after {
+      z-index: 1010;
+      content: "\e030";
+      font-family: 'Glyphicons Halflings';
+      font-size: 50px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 100px;
+      width: 100px;
+      height: 100px;
+      left: 50%;
+      top: 50%;
+
+      margin-top: -50px;
+      margin-left: -50px;
+      transition: .3s background ease;
+    }
+    &:before {
+      z-index: 1000;
+      background: fadeout(#000, 50%);
+      display: block;
+      content: '';
+    }
+  }
+  */
+}
+a {
+  color: #444;
+}
+
+.person-list {
+  margin: 0; padding: 0px 15px;
+  .person-item {
+    display: block;
+    float: left;
+    list-style: none;
+    *padding: 15px;
+    position: relative;
+    width: 33%;
+    height: 248px;
+    overflow: hidden;
+    .person-name {
+      position: absolute;
+      top: -100%;
+      left: 0px;
+      right: 0px;
+
+      padding: 5px 5px;
+      background: fadeout(#fff, 10%);
+      margin: 0;
+
+    }
+    img {
+      width: 100%;
+    }
+
+    &:hover{
+      .person-name {
+        top: 0;
+      }
+    }
+  }
+}
